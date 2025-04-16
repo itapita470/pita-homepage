@@ -56,9 +56,29 @@
       text-align: center;
       padding: 1rem;
       margin-top: 3rem;
-      position: absolute;
-      bottom: 0;
-      width: 100%;
+    }
+    .buttons-container {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .btn {
+      background-color: #e60023;
+      color: white;
+      padding: 10px 20px;
+      text-align: center;
+      border: none;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
+      width: 120px;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #d0001f;
     }
   </style>
 </head>
@@ -75,11 +95,16 @@
 
   <main>
     <h2>Itapita - כל הקישורים במקום אחד</h2>
-    <p>Itapita - לכל אחד!</p>
+    <p>.itapita - לכל אחד! </p>
   </main>
 
   <footer>
     &copy; 2025 Itapita. כל הזכויות שמורות.
   </footer>
+
+  <div class="buttons-container">
+    <button class="btn">Register</button>
+    <button class="btn">Sign In</button>
+  </div>
 </body>
 </html>
