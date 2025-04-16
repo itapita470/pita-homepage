@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Itapita - אתר הבית</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #e60023;
+      padding: 1rem 2rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+    nav {
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 2rem;
+      text-align: center;
+    }
+    main h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    main p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+    footer {
+      background-color: #222;
+      color: #ccc;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 3rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>ברוכים הבאים לאיטפיטה</h1>
+    <nav>
+      <a href="https://itapita470.github.io/itapitascompare.com" target="_blank">המרות טיסות ולינה</a>
+      <a href="https://www.youtube.com/@itaibendavid1" target="_blank">ערוץ היוטיוב</a>
+      <a href="https://linktr.ee/itapita" target="_blank">לינקטרי</a>
+      <a href="https://github.com/itapita470/itapitascompare.com/" target="_blank">קוד פתוח בגיטהאב</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Itapita - כל הקישורים במקום אחד</h2>
+    <p>.itapita - לכל אחד! </p>
+  </main>
+
+  <footer>
+    &copy; 2025 Itapita. כל הזכויות שמורות.
+  </footer>
+</body>
+</html>
